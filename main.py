@@ -6,7 +6,7 @@ import random
 class MazeGame:
     def __init__(self, root):
         self.root = root
-        self.root.title("Лабиринт ")
+        self.root.title("Лабиринт")
         self.root.geometry("1000x700")
 
         # Фиксированный размер окна
